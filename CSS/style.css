@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Raleway';
+}
+
+.navigation_bar {
+    position: relative;
+    background-color: #0e0e0e08;
+    width: 100%;
+    overflow: hidden;
+    max-height: 80px;
+}
+
+
+.navigation_bar > img{
+    width: 180px;
+    padding: 33px 0px 0px 50px;;
+}
+.navigation_bar>ul {
+    list-style: none;
+    float: right;
+    padding-right: 50px;
+
+}
+
+.navigation_bar>ul>li {
+    float: left;
+    padding: 30px 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.navigation_bar>ul>button {
+    float: left;
+    margin-top: 20px;
+    min-width: 120px;
+    background: transparent;
+    border: 1.5px solid white;
+    border-radius: 30px;
+    box-shadow: none;
+    padding:10px;
+    
+}
+
+.navigation_bar>ul>button>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.navigation_bar>ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+.banner_image {
+    background-image: url(../Images/Banner.jpg);
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.banner_overlay {
+    background-image: linear-gradient(to bottom right, #e8042e, #f7395f );
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.content {
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+    top: 30%;
+    color: white;
+}
+
+.content > h1 {
+    font-size: 55px;
+    color: white;
+}
+
+.content > h3 {
+    font-size: 26px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 2%;
+}
+
+.content>ul{
+    list-style:square;
+    list-style-position: inside;
+}
+
+.buttonA {
+    background: transparent;
+    color: white;
+    font-weight: 600;
+    border: 1.5px solid white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    min-width: 180px;
+    box-shadow: 3px 2px #15141445;
+}
+
+.Section_01{
+    margin-bottom: 30px;
+}
+.Sec01_Content, .Section_02, .Section_03{
+    padding: 50px 80px;
+    overflow: hidden;
+    
+    
+}
+.Items_Services {
+    width: 28%;
+    display: inline-block;
+    padding: 18px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: darkslategrey;
+    margin: 10px;
+    border: none;
+}
+
+.service_content {
+    margin-left: 48px;
+}
+
+.service i {
+    text-align: center;
+    font-size: 50px;
+    padding-right: 30px;
+    color: #f7395f;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    height: 120px;
+}
+
+.Section_01hr{
+    border-bottom: 1px solid lightgrey;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.Sec02_Img{
+    
+    float: left;
+    
+}
+
+.Sec02_Img>img{
+    max-width: 500px;
+}
+
+.Sec02_Content{
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+}
+
+.Sec02_Content>h3{
+    font-size: 40px;
+    margin-top: 40px;
+    
+}
+
+.Sec02_Content>p{
+    
+    margin-top: 20px;
+    
+    line-height: 2;
+    font-weight: 300;
+}
+
+.Sec02_Content>ul{
+    list-style: none;
+    
+    line-height: 2.5;
+    margin-top: 10px;
+}
+
+.Sec02_Content>ul>li>i{
+    padding-right: 10px;
+    font-size: 18px;
+    color: #e8042e;
+    
+}
+
+.buttonB {
+    background: linear-gradient(45deg, #f7395f 0%, #fe702e 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    min-width: 180px;
+    box-shadow: 3px 2px #15141445;
+    margin-top: 20px;
+}
+
+.buttonB>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.Section_03{
+    background-image: url(../Images/home-image.jpg);
+    
+}
+
+.Sec03{
+    display: inline-block;
+    width: 30%;
+    margin: 18px;
+    text-align: center;
+    line-height: 2;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Sec03>i{
+    font-size: 40px;
+}
+
+.Section_4{
+    text-align: center;
+    padding: 50px 80px;
+    line-height: 2;
+    
+}
+.Clients>img{
+    max-width: 200px;
+    padding: 20px;
+}
+
+.Section_4>h3{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.Section_4>p{
+    
+    margin-top: 20px;
+    line-height: 2;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Section_5{
+    text-align: center;
+    padding: 50px 80px;
+    line-height: 2;
+    background: #f9f8f8;
+}
+
+.Section_5>h3{
+    font-size: 40px;
+    margin-top: 40px;
+    color: #f7395f;
+}
+
+.Section_5>p{
+    
+    margin-top: 20px;
+    
+    line-height: 2;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.testimony{
+    display: inline-block;
+    width: 28%;
+    padding: 20px;
+    margin: 10px;
+    background: #fbf9f8;
+    box-shadow: 3px 3px #dcdcdc96;
+}
+
+.testimony>img{
+    border-radius: 100px;
+}
+
+.Bar{
+    height: 10px;
+    background: linear-gradient(45deg, #f7395f 0%, #fe702e 100%);
+}
+.Section_Form {
+    padding: 100px;
+    background: black;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.contact_info {
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    margin: 15px 0px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+
+}
+
+
+
+.contact i {
+    font-size: 36px;
+    color: #f7395f;
+    margin-bottom: 20px;
+}
+
+
+.contact-form {
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.contact-form .input {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background: white;
+    border-bottom: 2px solid #EEE;
+    color: black;
+    padding: 0px 10px;
+    opacity: 0.9;
+    display: flex;
+    align-content: center;
+    font-size: 15px;
+}
+
+textarea {
+    padding: 10px 10px;
+    min-height: 80px;
+    resize: vertical;
+
+}
+
+
+.buttonC {
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #f7395f 0%, #fe702e 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    min-width: 150px;
+
+}
+
+.footer{
+    padding: 20px 80px;
+    text-align: center;
+    background: linear-gradient(45deg, #f7395f 0%, #fe702e 100%);
+    color: white;
+    
+}
